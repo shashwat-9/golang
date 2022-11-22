@@ -4,14 +4,14 @@ import "fmt"
 
 func main() {
 
-	var x int
+	var num int
 
-	fmt.Scan(&x)
+	fmt.Scan(&num)
 
-	if x > 0 {
-		x /= 2
+	if num > 0 {
+		num /= 2
 	}
 
-	fmt.Println(x)
+	fmt.Println(num)
 
 }

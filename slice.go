@@ -11,11 +11,11 @@ func main() {
 	val := "Hello World"
 
 	first := val[0:5]
-	second := val[5:len(val)]
+	second := val[5:]
 
 	fmt.Println(first, second)
 
 	//Slice of a Slice
-	f1 := val[0:5][1:4]
-	fmt.Println(f1)
+	doubleSlice := val[0:5][1:4]
+	fmt.Println(doubleSlice)
 }

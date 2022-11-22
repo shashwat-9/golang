@@ -23,11 +23,11 @@ func main() {
 
 	fmt.Println("Enter any int")
 
-	var a int64
+	var input int64
 
-	fmt.Scanln(&a)
+	fmt.Scanln(&input)
 
-	if a >= 1 && a <= 10 {
+	if input >= 1 && input <= 10 {
 		fmt.Println("The value is between 1 and 10")
 	} else {
 		fmt.Println("The value of a is outside the range of 1 and 10")
